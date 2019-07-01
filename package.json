@@ -1,0 +1,29 @@
+{
+  "name": "react-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newbornhsir/react.git"
+  },
+  "author": "newbornhsir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newbornhsir/react/issues"
+  },
+  "homepage": "https://github.com/newbornhsir/react#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "react": "^16.8.6"
+  }
+}
