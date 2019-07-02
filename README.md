@@ -1,23 +1,17 @@
 ## 从零开始构建React应用
 
 ### 配置webpack
-#### 安装webpack和react
-1. 安装webpack4x和webpack-cli
-2. 安装react
-#### 配置webpack
 
-1. 出入口
+1. 使用的webpack4x版本，所以需要安装webpack和webpack-cli
+2. 项目根目录创建webpack.config.js，webpack会默认找这个配置文件
+3. 配置出入口
+4. babel支持es6
+5. react支持: babel-preset-react react react-dom
+6. html模版: html-webpacl-plugin, clean-webpack-plugin
+7. webpack-dev-server
+openPage需要，dist输出的html不是index.html
+8. npm script
 
-2. html模版
-html-webpack-plugin
-clean-webpack-plugin
-3. 热重载
-webpack-dev-server
-contentBase目录中的index.html，如果文件名不是index.html。则需要指定openPage
-4. es6
-通过babel来使用es6
-添加react支持 babel-preset-react react react-dom
-5. npm script
 
 ### react基本知识
 1. jsx
